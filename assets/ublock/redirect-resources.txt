@@ -235,3 +235,9 @@ uabinject-defuser.js application/javascript
 (function() {
     window.uabpdl = window.uabInject = window.uabDetect = true;
 })();
+
+#Forbes
+forbes.js application/javascript
+getAdBlockState: function () {
+   return false
+}
