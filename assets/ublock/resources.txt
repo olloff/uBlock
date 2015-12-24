@@ -227,6 +227,6 @@ uabinject-defuser.js application/javascript
 forbes.js application/javascript
 (function() {
     getAdBlockState: function () {
-      return true;
+      return false;
     }
 })();
