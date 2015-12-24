@@ -222,3 +222,18 @@ uabinject-defuser.js application/javascript
 (function() {
     window.uabpdl = window.uabInject = window.uabDetect = true;
 })();
+
+#Forbes
+forbes.js application/javascript
+(function() {
+    getAdBlockState: function () {
+       return true
+    }
+})();
+
+#alert
+alert.js application/javascript
+function thisalert() {
+    var d = new Date();
+    console.log('alert ' + d.getTime());
+}
