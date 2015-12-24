@@ -232,7 +232,7 @@ forbes.js application/javascript
 })();
 
 #alert
-alert.js application/javascript
+alerts.js application/javascript
 function thisalert() {
     var d = new Date();
     console.log('alert ' + d.getTime());
