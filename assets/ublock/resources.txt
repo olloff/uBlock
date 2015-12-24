@@ -231,3 +231,9 @@ forbes.js application/javascript
       return false
     }
 })();
+
+#alert
+alertalert.js application/javascript
+(function() {
+    console.log("alert");
+})();
